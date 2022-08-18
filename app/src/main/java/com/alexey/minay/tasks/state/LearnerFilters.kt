@@ -25,9 +25,9 @@ data class LearnerFilters(
 
     companion object {
         fun default() = LearnerFilters(
-            type = Type.INIT,
-            learningFilter = LearningFilter.ASSIGN_AND_CATALOG,
-            dateFilter = DateFilter.LAST_90_DAYS
+                type = Type.INIT,
+                learningFilter = LearningFilter.ASSIGN_AND_CATALOG,
+                dateFilter = DateFilter.LAST_90_DAYS
         )
     }
 

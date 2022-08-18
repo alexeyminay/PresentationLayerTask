@@ -1,4 +1,4 @@
-package com.ispring.islearn.coreui.viewmodel.mvi2
+package com.alexey.minay.tasks.mvi
 
 abstract class Executor<TAction : Any, TState : Any, TResult : Any> {
 

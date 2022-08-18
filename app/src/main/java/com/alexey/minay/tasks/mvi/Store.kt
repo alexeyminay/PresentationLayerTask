@@ -1,8 +1,7 @@
-package com.ispring.islearn.coreui.viewmodel.mvi2
+package com.alexey.minay.tasks.mvi
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ispring.islearn.coreutils.uiLazy
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -14,7 +13,7 @@ abstract class Store<TState : Any, TAction : Any, TResult : Any>(
         initialState: TState
 ) : ViewModel() {
 
-    val state: StateFlow<TState> by uiLazy { mState.asStateFlow() }
+    val state: StateFlow<TState> by lazy(LazyThreadSafetyMode.NONE) { mState.asStateFlow() }
 
     private val mState = MutableStateFlow(initialState)
 
