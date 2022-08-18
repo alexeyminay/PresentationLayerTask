@@ -1,4 +1,4 @@
-package com.alexey.minay.tasks.mvi
+package com.alexey.minay.tasks.mviLib
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -1,4 +1,4 @@
-package com.alexey.minay.tasks.mvi
+package com.alexey.minay.tasks.mviLib
 
 abstract class Executor<TAction : Any, TState : Any, TResult : Any> {
 

@@ -1,4 +1,4 @@
-package com.alexey.minay.tasks.state
+package com.alexey.minay.tasks.presentation.state
 
 data class LearnerFilters(
         val type: Type,

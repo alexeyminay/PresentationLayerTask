@@ -1,4 +1,6 @@
-package com.alexey.minay.tasks.state
+package com.alexey.minay.tasks.presentation.state
+
+import com.alexey.minay.tasks.domain.Learner
 
 
 data class LearnersState(

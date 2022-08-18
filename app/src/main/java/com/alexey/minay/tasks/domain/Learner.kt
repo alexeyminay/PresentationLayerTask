@@ -1,4 +1,4 @@
-package com.alexey.minay.tasks.state
+package com.alexey.minay.tasks.domain
 
 data class Learner(
         val id: String,
